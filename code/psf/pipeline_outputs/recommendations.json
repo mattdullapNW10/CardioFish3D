@@ -1,0 +1,103 @@
+[
+  {
+    "sample_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001",
+    "recommended_model": "vri_gibson_lanni",
+    "confidence": "low",
+    "reasons": [
+      "Default strategy starts from Gibson & Lanni: a robust scalar baseline that models stratified-media (coverslip/immersion/specimen) aberration.",
+      "Gibson & Lanni and Born & Wolf give near-identical axial FWHM (1.85 vs 1.85 um, 0% diff): stratified-media aberration is mild here, so Born & Wolf is an acceptable simpler baseline.",
+      "Depth/RI-mismatch indicators are triggered (see escalation flags): explore Variable-RI Gibson & Lanni, which models depth-dependent refractive-index aberration that the simpler models cannot capture.",
+      "Variable-RI Gibson & Lanni matches or beats the current pick (0.61 vs 0.61) under triggered depth/RI flags: recommend Variable-RI Gibson & Lanni."
+    ],
+    "escalation_flags": [
+      "RI mismatch |ni-ns|=0.350 (>= 0.04)"
+    ],
+    "best_by_score": "richards_wolf",
+    "ranking": [
+      {
+        "candidate_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001__richards_wolf__cb27c389",
+        "sample_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001",
+        "model": "richards_wolf",
+        "backend": "psfmodels",
+        "na": 0.75,
+        "wavelength_nm": 509.0,
+        "depth_um": 0.0,
+        "voxel_xy_um": 0.5675040377912289,
+        "voxel_z_um": 0.6849,
+        "fwhm_lateral_um": 0.7737579838320525,
+        "fwhm_z_um": 1.8490830859691114,
+        "anisotropy": 2.3897434657946777,
+        "axial_sidelobe": 0.0010247256141155958,
+        "plausibility": 0.6148867840578853,
+        "stability": NaN,
+        "reblur": NaN,
+        "depth_sensitivity": NaN,
+        "composite": 0.6148867840578853,
+        "rank_in_sample": 1.0
+      },
+      {
+        "candidate_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001__born_wolf__f46b1963",
+        "sample_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001",
+        "model": "born_wolf",
+        "backend": "psfmodels",
+        "na": 0.75,
+        "wavelength_nm": 509.0,
+        "depth_um": 0.0,
+        "voxel_xy_um": 0.5675040377912289,
+        "voxel_z_um": 0.6849,
+        "fwhm_lateral_um": 0.7612733498574757,
+        "fwhm_z_um": 1.850210770345693,
+        "anisotropy": 2.4304157904543566,
+        "axial_sidelobe": 0.001060066046193242,
+        "plausibility": 0.6139847073138721,
+        "stability": NaN,
+        "reblur": NaN,
+        "depth_sensitivity": NaN,
+        "composite": 0.6139847073138721,
+        "rank_in_sample": 2.0
+      },
+      {
+        "candidate_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001__gibson_lanni__067b6451",
+        "sample_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001",
+        "model": "gibson_lanni",
+        "backend": "psfmodels",
+        "na": 0.75,
+        "wavelength_nm": 509.0,
+        "depth_um": 0.0,
+        "voxel_xy_um": 0.5675040377912289,
+        "voxel_z_um": 0.6849,
+        "fwhm_lateral_um": 0.7612733498574757,
+        "fwhm_z_um": 1.850210770345693,
+        "anisotropy": 2.4304157904543566,
+        "axial_sidelobe": 0.001060066046193242,
+        "plausibility": 0.6139847073138721,
+        "stability": NaN,
+        "reblur": NaN,
+        "depth_sensitivity": NaN,
+        "composite": 0.6139847073138721,
+        "rank_in_sample": 2.0
+      },
+      {
+        "candidate_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001__vri_gibson_lanni__89762684",
+        "sample_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001",
+        "model": "vri_gibson_lanni",
+        "backend": "psfmodels",
+        "na": 0.75,
+        "wavelength_nm": 509.0,
+        "depth_um": 0.0,
+        "voxel_xy_um": 0.5675040377912289,
+        "voxel_z_um": 0.6849,
+        "fwhm_lateral_um": 0.7612733498574757,
+        "fwhm_z_um": 1.850210770345693,
+        "anisotropy": 2.4304157904543566,
+        "axial_sidelobe": 0.001060066046193242,
+        "plausibility": 0.6139847073138721,
+        "stability": NaN,
+        "reblur": NaN,
+        "depth_sensitivity": NaN,
+        "composite": 0.6139847073138721,
+        "rank_in_sample": 2.0
+      }
+    ]
+  }
+]

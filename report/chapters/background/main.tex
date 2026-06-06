@@ -1,0 +1,133 @@
+\section{Fluorescence Microscopy in Cardiac Imaging}
+
+Fluorescence microscopy plays an important role in cardiac imaging because it allows specific structures within the developing heart to be visualised with high contrast~\cite{...}. This is particularly useful in zebrafish, where the embryo is transparent during early development and the heart forms quickly enough to be observed in vivo over short time scales~\cite{...}. In practice, this makes zebrafish a very suitable model for studying how cardiac structures emerge, reorganise, and mature during development.
+
+For this report, fluorescence microscopy is relevant not only because it provides visual access to the myocardium and other labelled structures, but also because the quality of the recorded image directly affects biological interpretation. Features such as tissue boundaries, nuclear shape, and the spatial organisation of cardiac cells can all be altered or obscured by blur and background signal~\cite{...}. This is why fluorescence microscopy is introduced here not just as an imaging technique, but as the starting point of the image restoration problem addressed in this work.
+
+\subsection{Biological Background}
+
+\subsubsection{Cardiac Development in Zebrafish}
+
+The zebrafish has become a major model organism for studying vertebrate heart development because many of the core processes involved in cardiogenesis are conserved across species~\cite{...}. Although the zebrafish heart has two chambers rather than four, it still undergoes the key developmental steps of progenitor specification, migration, heart tube formation, looping, chamber differentiation, and progressive maturation~\cite{...}. This makes it a useful system for studying early cardiac morphogenesis in a relatively accessible way.
+
+One of the main advantages of zebrafish is that heart development can be followed directly in living embryos. Cardiac progenitors emerge bilaterally, migrate toward the midline, form the cardiac disc and then the linear heart tube, which begins coordinated contraction at approximately 24 hours post fertilisation~\cite{...}. Over the next few days, the heart continues to remodel, with chamber structure, trabeculation, valve formation, and functional specialisation becoming visible~\cite{...}. Because these changes occur quickly and in a transparent embryo, fluorescence imaging is especially well suited to capturing them.
+
+From the perspective of this report, zebrafish cardiac development is a useful biological setting because morphology changes rapidly and many structures remain small and closely packed. As a result, image degradation has a direct impact on what can actually be observed. A slightly blurred image may still appear acceptable visually, but it can already reduce the visibility of thin myocardial structures or make neighbouring features harder to separate. This makes image restoration particularly relevant in developmental cardiac imaging.
+
+\subsubsection{Nuclear Morphometry}
+
+Nuclear morphometry refers to the quantitative description of nuclei in terms of size, shape, orientation, and spatial distribution. In tissue imaging, nuclei are often used as structural markers because they are relatively easy to label and because their morphology can reflect the organisation and mechanical state of the surrounding cells. In cardiac tissue, nuclear form is not random. It is influenced by cell shape, tissue anisotropy, and the mechanical environment of the myocardium~\cite{...}.
+
+This is particularly interesting in the cardiac context because myocardial organisation and nuclear organisation are linked. In engineered cardiac tissues, nuclei have been shown to become more aligned and more elongated in anisotropic environments, while nuclei in isotropic tissues are more variable in shape and orientation~\cite{...}. This suggests that nuclear morphology can act as an indirect readout of tissue structure. Even if nuclear morphometry is not the main endpoint of this report, it gives a strong biological reason to care about image quality.
+
+For fluorescence imaging, this matters because morphometric analysis depends on clear nuclear boundaries. If blur spreads intensity across neighbouring regions or if noise distorts the contour of a nucleus, measurements such as area, eccentricity, or circularity become less reliable. In that sense, restoring fluorescence images is not just a technical optimisation step. It is part of preserving biologically meaningful information that may later be used for quantitative analysis.
+
+\subsubsection{Myocardium Geometry}
+
+The myocardium is the muscular layer of the heart, and its geometry is central to both cardiac development and function. During development, myocardial cells become organised into a structured tissue with characteristic curvature, chamber-specific architecture, and progressively more complex internal organisation~\cite{...}. In zebrafish, these changes happen on a short developmental timescale, which makes the myocardium a good target for fluorescence-based observation.
+
+The geometry of the myocardium is also one of the first things affected by limited image quality. Cardiac tissue is dense, three-dimensional, and often highly dynamic, so recorded fluorescence images are shaped not only by the labelled specimen but also by scattering, out-of-focus light, and the optical response of the microscope~\cite{...}. This can reduce the apparent sharpness of tissue borders and make fine myocardial features more difficult to identify.
+
+For this report, myocardial geometry is highly relevant because the goal of image restoration is to recover meaningful structural information rather than simply produce a visually smoother result. In cardiac imaging, geometry is not just a visual feature. It is part of the biology being studied.
+
+\subsection{Fluorescence Microscopy}
+
+\subsubsection{Principles of Fluorescence}
+
+Fluorescence microscopy is based on the ability of certain molecules, called fluorophores, to absorb light at one wavelength and emit light at a longer wavelength. The emitted signal is separated from the excitation light by optical filters and then detected to form an image of the labelled structures~\cite{...}. This selective emission is what gives fluorescence microscopy its strong contrast compared with conventional transmitted-light imaging.
+
+The main advantage of fluorescence microscopy in biological research is specificity. Instead of imaging the whole specimen indiscriminately, the technique makes it possible to highlight selected molecules, cell types, or subcellular structures~\cite{...}. In cardiac imaging, this is valuable because the heart contains multiple overlapping tissue components, and the structure of interest may otherwise be difficult to distinguish clearly.
+
+In the context of this report, fluorescence microscopy is especially useful because it provides access to features such as labelled myocardium or nuclei in developing zebrafish tissue. At the same time, the technique is not free from imaging limitations. Even when labelling is successful, the final image still depends on the optical system and acquisition conditions, which means that the biological signal is always mediated by the physics of image formation.
+
+\subsubsection{Fluorescent Labelling}
+
+Fluorescent labelling consists of attaching or expressing fluorophores in a way that marks the structures of interest within the sample. In biological imaging, this can be done with fluorescent proteins, antibody-based staining, or other targeted probes depending on whether the experiment is performed in live or fixed tissue~\cite{...}. The main goal is to generate signal only from the biological component that needs to be observed.
+
+In zebrafish cardiac imaging, fluorescent reporters are especially useful because they allow heart development to be tracked in vivo over time~\cite{...}. The differentiating myocardium, for example, is commonly labelled using markers such as \textit{myl7} or the older name \textit{cmlc2}, which are widely used to identify developing cardiac muscle in zebrafish embryos~\cite{...}. Other reporters can be used to visualise actin organisation, endocardial structures, or cell populations associated with specific developmental stages.
+
+However, fluorescent labelling does not guarantee a perfect image. Signal quality still depends on fluorophore brightness, expression level, photobleaching, sample depth, background fluorescence, and acquisition settings~\cite{...}. As a result, even biologically informative images may suffer from low contrast, blur, or noise, which is exactly why restoration becomes necessary in downstream analysis.
+
+\subsubsection{Image Formation}
+
+In fluorescence microscopy, the recorded image is not a direct one-to-one representation of the specimen. Instead, the optical system spreads light from each emitting point over a finite region in the detector plane. This spreading effect is described by the point spread function, which determines how much blur is introduced during imaging~\cite{...}. As a result, fine structures in the sample can appear broader, dimmer, or partially merged in the final image.
+
+This issue becomes more pronounced in thick or complex biological specimens. In cardiac tissue, scattering, out-of-focus fluorescence, and limited axial resolution can all contribute to signal degradation, particularly in widefield imaging~\cite{...}. Even when optical sectioning methods improve background suppression, image quality remains constrained by the physical limits of the microscope and by acquisition trade-offs such as exposure time and phototoxicity~\cite{...}.
+
+For this report, image formation is not just background theory. It provides the link between the biological sample and the restoration methods developed later. Understanding that the observed image is a blurred and noisy version of the underlying structure is essential, because it justifies why deconvolution or related restoration approaches are needed in the first place.
+\section{Point Spread Function}
+
+The point spread function (PSF) describes how a microscope responds to a single point source of light. In an ideal imaging system, a point in the specimen would appear as a point in the final image. In practice, optical limitations cause that point to spread into a blurred intensity pattern. This spreading is one of the main reasons fluorescence microscopy images lose sharpness, especially in three-dimensional biological samples.
+
+In fluorescence microscopy, the PSF is important because it determines how accurately fine structures can be represented. For volumetric imaging of zebrafish cardiac tissue, this matters because the myocardium contains thin, curved, and closely packed structures that can easily become blurred together~\cite{...}. The PSF therefore provides the conceptual link between the raw microscopy image and the degraded appearance that image restoration methods aim to reverse.
+
+\subsection{Theory}
+
+The PSF can be understood as the image of an infinitesimally small point object formed by the microscope. Because light passes through lenses and interacts with the sample medium, the system does not preserve the point exactly. Instead, the energy from that point is distributed over a small area in the image plane and, in three-dimensional imaging, over a small volume in space~\cite{...}.
+
+This distribution depends on several factors, including the numerical aperture of the objective, the wavelength of emitted light, refractive index mismatches, and the optical configuration of the microscope~\cite{...}. In fluorescence microscopy, the PSF is therefore not only a property of the microscope itself but also of the imaging conditions and the sample. As a result, the same biological structure can appear differently depending on depth, tissue density, and acquisition setup.
+
+From a restoration perspective, the PSF is central because it explains how the ideal specimen becomes a blurred observed image. Classical deconvolution methods attempt to reverse this process by estimating the PSF and applying an inverse operation~\cite{...}. In this work, the PSF still matters conceptually, even though the restoration pipeline does not rely on explicit PSF estimation.
+
+\subsection{Morphometric Degradation}
+
+The PSF affects more than visual sharpness. It also changes the apparent morphology of structures in the image. When a small biological feature is blurred by the imaging system, its boundaries become less distinct, its shape may appear wider or smoother than it really is, and nearby objects may begin to merge. This is especially problematic when the goal is to measure anatomical structure rather than simply inspect the image visually~\cite{...}.
+
+In cardiac fluorescence microscopy, morphometric degradation can affect the visibility of nuclei, tissue edges, and myocardial organisation. For example, elongated structures may appear shorter or less directional, and compact structures may lose their true boundaries. This can distort downstream measurements such as area, eccentricity, curvature, spacing, and tissue continuity~\cite{...}. In other words, image blur does not only reduce clarity, but can actively alter the biological features that researchers want to quantify.
+
+This is particularly relevant in zebrafish myocardium, where the structures of interest are small and often close together in three-dimensional space. Once blur spreads signal across neighbouring regions, it becomes more difficult to separate individual anatomical components. For this reason, PSF-related degradation is not just a technical imaging issue. It directly affects the biological usefulness of the data.
+
+\subsection{Resolution Limits}
+
+The PSF also defines the fundamental resolution limits of the microscope. Resolution describes the smallest distance at which two structures can still be distinguished as separate objects. In fluorescence microscopy, this limit is constrained by diffraction, which means that even a well-calibrated microscope cannot represent arbitrarily fine detail~\cite{...}. As a result, structures that are closer together than the system can resolve will appear partially or fully merged.
+
+In three-dimensional imaging, resolution is usually not the same in all directions. Lateral resolution in the image plane is typically better than axial resolution along the depth direction, which leads to anisotropic image quality~\cite{...}. This anisotropy is one reason volumetric microscopy of biological tissue often appears stretched or blurred along the z-axis. For cardiac imaging, this is especially important because the myocardium has complex three-dimensional geometry and features of interest may extend across multiple slices.
+
+The practical implication is that resolution is limited both by physics and by the imaging setup. Larger numerical aperture, shorter wavelengths, and improved optical design can improve resolution, but they cannot remove the underlying diffraction limit entirely~\cite{...}. This is why restoration methods are often used alongside microscopy: they aim to recover detail that is partially lost to the PSF, while still respecting the structure of the original biological sample.
+
+\section{Image restoration}
+[Text for Image restoration]
+
+\subsection{PSF estimation}
+[Text for PSF estimation]
+
+\subsubsection{Non-blind}
+[Text for Non-blind]
+
+\subsubsection{Semi-blind}
+[Text for Semi-blind]
+
+\subsubsection{Blind}
+[Text for Blind]
+
+\subsubsection{Deep-learning based}
+[Text for Deep-learning based]
+
+\subsection{Deconvolution}
+[Text for Deconvolution]
+
+\subsubsection{Non-iterative}
+[Text for Non-iterative]
+
+\subsubsection{Iterative}
+[Text for Iterative]
+
+\subsubsection{Emerging approaches}
+[Text for Emerging approaches]
+
+\section{Generative Adversarial Networks}
+[Text for Generative Adversarial Networks]
+
+\subsection{Overview}
+[Text for Overview]
+
+\subsection{Discriminator}
+[Text for Discriminator]
+
+\subsection{Generator}
+[Text for Generator]
+
+
+%https://www.nature.com/articles/s44172-024-00331-z
+%https://www.nature.com/articles/s42003-021-02938-w
+%Segmentation-aware representations

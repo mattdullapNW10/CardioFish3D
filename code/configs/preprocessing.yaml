@@ -1,0 +1,38 @@
+# Preprocessing Configuration
+
+# Input/Output paths
+input_dir: "data/raw"
+output_dir: "data/processed"
+
+# Image parameters
+image_format: "tif"
+target_size: [512, 512]  # Height, Width
+
+# Preprocessing steps
+normalize: true
+normalization_method: "minmax"  # Options: minmax, zscore
+
+# Contrast enhancement
+enhance_contrast: true
+contrast_method: "clahe"  # Options: clahe, histogram_equalization
+
+# Resizing
+resize: true
+interpolation: "bicubic"  # Options: nearest, bilinear, bicubic
+
+# Data augmentation (optional)
+augmentation:
+  enabled: true
+  rotation: 45
+  flip_horizontal: true
+  flip_vertical: true
+  elastic_deformation: true
+
+# Quality control
+remove_artifacts: true
+min_intensity_threshold: 5
+max_intensity_threshold: 250
+
+# Logging
+verbose: true
+save_intermediate: false

@@ -1,0 +1,226 @@
+{
+  "n_candidates": 4,
+  "models": [
+    "born_wolf",
+    "gibson_lanni",
+    "richards_wolf",
+    "vri_gibson_lanni"
+  ],
+  "samples": [
+    "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001"
+  ],
+  "candidates": [
+    {
+      "candidate_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001__born_wolf__f46b1963",
+      "sample_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001",
+      "model": "born_wolf",
+      "backend_used": "psfmodels",
+      "params": {
+        "na": 0.75,
+        "wavelength_nm": 509.0,
+        "ni": 1.0,
+        "ni0": 1.0,
+        "ns": 1.35,
+        "ns2": null,
+        "ng": 1.515,
+        "ng0": 1.515,
+        "coverslip_um": 170.0,
+        "coverslip_design_um": 170.0,
+        "working_distance_um": 2000.0,
+        "particle_depth_um": 0.0,
+        "voxel_xy_um": 0.5675040377912289,
+        "voxel_z_um": 0.6849,
+        "nx": 128,
+        "nz": 64,
+        "sample_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001"
+      },
+      "metrics": {
+        "fwhm_x_um": 0.7612733498574757,
+        "fwhm_y_um": 0.7612733498574757,
+        "fwhm_z_um": 1.850210770345693,
+        "fwhm_lateral_um": 0.7612733498574757,
+        "anisotropy": 2.4304157904543566,
+        "energy_concentration": 0.8106850170526024,
+        "axial_sidelobe_ratio": 0.001060066046193242,
+        "lateral_symmetry": 0.6325103160295554,
+        "peak_offset_vox": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "contained": true
+      },
+      "voxel_um": [
+        0.6849,
+        0.5675040377912289,
+        0.5675040377912289
+      ],
+      "perturbation_fwhm": {},
+      "reblur": null,
+      "psf_path": "pipeline_outputs/psfs/13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001__born_wolf__f46b1963.tif",
+      "config_path": null,
+      "scores": {},
+      "recommendation_notes": [],
+      "model_label": "Born & Wolf (scalar, no stratified aberration)"
+    },
+    {
+      "candidate_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001__gibson_lanni__067b6451",
+      "sample_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001",
+      "model": "gibson_lanni",
+      "backend_used": "psfmodels",
+      "params": {
+        "na": 0.75,
+        "wavelength_nm": 509.0,
+        "ni": 1.0,
+        "ni0": 1.0,
+        "ns": 1.35,
+        "ns2": null,
+        "ng": 1.515,
+        "ng0": 1.515,
+        "coverslip_um": 170.0,
+        "coverslip_design_um": 170.0,
+        "working_distance_um": 2000.0,
+        "particle_depth_um": 0.0,
+        "voxel_xy_um": 0.5675040377912289,
+        "voxel_z_um": 0.6849,
+        "nx": 128,
+        "nz": 64,
+        "sample_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001"
+      },
+      "metrics": {
+        "fwhm_x_um": 0.7612733498574757,
+        "fwhm_y_um": 0.7612733498574757,
+        "fwhm_z_um": 1.850210770345693,
+        "fwhm_lateral_um": 0.7612733498574757,
+        "anisotropy": 2.4304157904543566,
+        "energy_concentration": 0.8106850170526024,
+        "axial_sidelobe_ratio": 0.001060066046193242,
+        "lateral_symmetry": 0.6325103160295554,
+        "peak_offset_vox": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "contained": true
+      },
+      "voxel_um": [
+        0.6849,
+        0.5675040377912289,
+        0.5675040377912289
+      ],
+      "perturbation_fwhm": {},
+      "reblur": null,
+      "psf_path": "pipeline_outputs/psfs/13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001__gibson_lanni__067b6451.tif",
+      "config_path": null,
+      "scores": {},
+      "recommendation_notes": [],
+      "model_label": "Gibson & Lanni (scalar, stratified media)"
+    },
+    {
+      "candidate_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001__richards_wolf__cb27c389",
+      "sample_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001",
+      "model": "richards_wolf",
+      "backend_used": "psfmodels",
+      "params": {
+        "na": 0.75,
+        "wavelength_nm": 509.0,
+        "ni": 1.0,
+        "ni0": 1.0,
+        "ns": 1.35,
+        "ns2": null,
+        "ng": 1.515,
+        "ng0": 1.515,
+        "coverslip_um": 170.0,
+        "coverslip_design_um": 170.0,
+        "working_distance_um": 2000.0,
+        "particle_depth_um": 0.0,
+        "voxel_xy_um": 0.5675040377912289,
+        "voxel_z_um": 0.6849,
+        "nx": 128,
+        "nz": 64,
+        "sample_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001"
+      },
+      "metrics": {
+        "fwhm_x_um": 0.7737579838320525,
+        "fwhm_y_um": 0.7737579838320525,
+        "fwhm_z_um": 1.8490830859691114,
+        "fwhm_lateral_um": 0.7737579838320525,
+        "anisotropy": 2.3897434657946777,
+        "energy_concentration": 0.7985531544149784,
+        "axial_sidelobe_ratio": 0.0010247256141155958,
+        "lateral_symmetry": 0.6183705923932248,
+        "peak_offset_vox": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "contained": true
+      },
+      "voxel_um": [
+        0.6849,
+        0.5675040377912289,
+        0.5675040377912289
+      ],
+      "perturbation_fwhm": {},
+      "reblur": null,
+      "psf_path": "pipeline_outputs/psfs/13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001__richards_wolf__cb27c389.tif",
+      "config_path": null,
+      "scores": {},
+      "recommendation_notes": [],
+      "model_label": "Richards & Wolf (vectorial, high-NA)"
+    },
+    {
+      "candidate_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001__vri_gibson_lanni__89762684",
+      "sample_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001",
+      "model": "vri_gibson_lanni",
+      "backend_used": "psfmodels",
+      "params": {
+        "na": 0.75,
+        "wavelength_nm": 509.0,
+        "ni": 1.0,
+        "ni0": 1.0,
+        "ns": 1.35,
+        "ns2": null,
+        "ng": 1.515,
+        "ng0": 1.515,
+        "coverslip_um": 170.0,
+        "coverslip_design_um": 170.0,
+        "working_distance_um": 2000.0,
+        "particle_depth_um": 0.0,
+        "voxel_xy_um": 0.5675040377912289,
+        "voxel_z_um": 0.6849,
+        "nx": 128,
+        "nz": 64,
+        "sample_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001"
+      },
+      "metrics": {
+        "fwhm_x_um": 0.7612733498574757,
+        "fwhm_y_um": 0.7612733498574757,
+        "fwhm_z_um": 1.850210770345693,
+        "fwhm_lateral_um": 0.7612733498574757,
+        "anisotropy": 2.4304157904543566,
+        "energy_concentration": 0.8106850170526024,
+        "axial_sidelobe_ratio": 0.001060066046193242,
+        "lateral_symmetry": 0.6325103160295554,
+        "peak_offset_vox": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "contained": true
+      },
+      "voxel_um": [
+        0.6849,
+        0.5675040377912289,
+        0.5675040377912289
+      ],
+      "perturbation_fwhm": {},
+      "reblur": null,
+      "psf_path": "pipeline_outputs/psfs/13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001__vri_gibson_lanni__89762684.tif",
+      "config_path": null,
+      "scores": {},
+      "recommendation_notes": [],
+      "model_label": "Variable-RI Gibson & Lanni (depth-dependent aberration)"
+    }
+  ]
+}

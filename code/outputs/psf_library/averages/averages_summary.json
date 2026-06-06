@@ -1,0 +1,66 @@
+{
+  "richards_wolf_vectorial": {
+    "label": "Richards & Wolf (vectorial, psfmodels)",
+    "shape_zyx": [
+      31,
+      63,
+      63
+    ],
+    "mean_dxy_um": 0.5675098349454396,
+    "mean_dz_um": 0.6849,
+    "spatial_extent_um_approx": [
+      20.546999999999997,
+      35.185609766617254,
+      35.185609766617254
+    ],
+    "samples_averaged": 31
+  },
+  "gibson_lanni_scalar": {
+    "label": "Gibson & Lanni scalar (psfmodels)",
+    "shape_zyx": [
+      31,
+      63,
+      63
+    ],
+    "mean_dxy_um": 0.5675098349454396,
+    "mean_dz_um": 0.6849,
+    "spatial_extent_um_approx": [
+      20.546999999999997,
+      35.185609766617254,
+      35.185609766617254
+    ],
+    "samples_averaged": 31
+  },
+  "gaussian_axial_linear": {
+    "label": "Gaussian + axial variation (EPFL-style approx.)",
+    "shape_zyx": [
+      31,
+      63,
+      63
+    ],
+    "mean_dxy_um": 0.5675098349454396,
+    "mean_dz_um": 0.6849,
+    "spatial_extent_um_approx": [
+      20.546999999999997,
+      35.185609766617254,
+      35.185609766617254
+    ],
+    "samples_averaged": 31
+  },
+  "empirical_puncta_aligned": {
+    "label": "Empirical puncta-aligned average (dataset)",
+    "shape_zyx": [
+      31,
+      63,
+      63
+    ],
+    "mean_dxy_um": 0.5675098349454396,
+    "mean_dz_um": 0.6849,
+    "spatial_extent_um_approx": [
+      20.546999999999997,
+      35.185609766617254,
+      35.185609766617254
+    ],
+    "samples_averaged": 31
+  }
+}

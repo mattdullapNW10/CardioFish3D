@@ -1,0 +1,110 @@
+\documentclass[12pt]{report}
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+% Enable subsubsections in the TOC and give them numbering
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+\usepackage[backend=biber,style=numeric,sorting=nty]{biblatex}
+
+\addbibresource{references.bib}
+
+\begin{document}
+
+% ---- Front matter (no page numbers) ----
+\pagenumbering{gobble}
+\begin{titlepage}
+    \centering
+    
+    \includegraphics[width=0.4\textwidth]{imperial_logo.pdf}\\[1cm]
+    
+    {\Large \bfseries Final Year Project Report \par}
+    \vspace{0.4cm}
+    {\large Imperial College London \par}
+    \vspace{0.2cm}
+    {\large Department of Bioengineering \par}
+    \vspace{0.8cm}
+    
+    \rule{\textwidth}{1pt}\\[0.4cm]
+    {\Large \bfseries Generative deep learning for PSF-free fluorescence microscopy restoration \par}
+    \vspace{0.3cm}
+    \rule{\textwidth}{1pt}\\[1.8cm]
+    
+    \begin{minipage}[t]{0.45\textwidth}
+        \begin{flushleft} \large
+            \emph{Student:}\\
+            Matthieu Pallud\\[0.5cm]
+            \emph{CID:}\\
+            01234567
+        \end{flushleft}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.45\textwidth}
+        \begin{flushright} \large
+            \emph{Supervisor:}\\
+            Dr Julien Vermot\\[0.5cm]
+            \emph{Co-Supervisor:}\\
+            Mr. Antoine Sanchez
+        \end{flushright}
+    \end{minipage}
+    
+    \vspace{0.5cm}
+    
+    {\large June 11, 2026 \par}
+\end{titlepage}
+
+\chapter*{Abstract}
+\input{chapters/abstract/main}
+\clearpage
+
+\tableofcontents
+\clearpage
+
+% ---- Main matter ----
+\pagenumbering{arabic}
+
+% Make sure Acknowledgments is unnumbered but shows up in TOC
+\chapter*{Acknowledgments}
+\addcontentsline{toc}{chapter}{Acknowledgments}
+\input{chapters/acknowledgments/main}
+
+\chapter{Introduction}
+\input{chapters/introduction/main}
+
+\chapter{Background}
+\input{chapters/background/main}
+
+\chapter{Requirements Capture}
+\input{chapters/requirements_capture/main}
+
+\chapter{Methodology}
+\input{chapters/methodology/main}
+
+\chapter{Implementation}
+\input{chapters/implementation/main}
+
+\chapter{Testing}
+\input{chapters/testing/main}
+
+\chapter{Results}
+\input{chapters/results/main}
+
+\chapter{Evaluation}
+\input{chapters/evaluation/main}
+
+\chapter{Conclusions and Further Work}
+\input{chapters/conclusions_and_further_work/main}
+
+\chapter{User Guide}
+\input{chapters/user_guide/main}
+
+\printbibliography
+
+\appendix
+\chapter{Appendices}
+\input{appendix/appendixA}
+
+\end{document}

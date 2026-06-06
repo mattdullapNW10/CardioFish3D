@@ -1,0 +1,378 @@
+{
+  "created_from": "/Users/matthieupallud/Downloads/FYP/data/raw",
+  "n_success": 31,
+  "samples": [
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeactXnuclear/30hpf/150012025_cmcl2_lifeactxnuclear_32hpf.lif - Series004.tif",
+      "sample_name": "150012025_cmcl2_lifeactxnuclear_32hpf.lif_-_Series004",
+      "dxy_um": 0.5684327683301094,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeactXnuclear/30hpf/150012025_cmcl2_lifeactxnuclear_32hpf.lif - Series006.tif",
+      "sample_name": "150012025_cmcl2_lifeactxnuclear_32hpf.lif_-_Series006",
+      "dxy_um": 0.5684327683301094,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeactXnuclear/48hpf/16012025_cmlc2_lifeactxnuclear_48hpf.lif - Series002.tif",
+      "sample_name": "16012025_cmlc2_lifeactxnuclear_48hpf.lif_-_Series002",
+      "dxy_um": 0.567508546678713,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeactXnuclear/48hpf/16012025_cmlc2_lifeactxnuclear_48hpf.lif - Series003.tif",
+      "sample_name": "16012025_cmlc2_lifeactxnuclear_48hpf.lif_-_Series003",
+      "dxy_um": 0.567508546678713,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeactXnuclear/48hpf/16012025_cmlc2_lifeactxnuclear_48hpf.lif - Series004.tif",
+      "sample_name": "16012025_cmlc2_lifeactxnuclear_48hpf.lif_-_Series004",
+      "dxy_um": 0.567508546678713,
+      "dz_um": 0.6848999999999998,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeactXnuclear/48hpf/16012025_cmlc2_lifeactxnuclear_48hpf.lif - Series005.tif",
+      "sample_name": "16012025_cmlc2_lifeactxnuclear_48hpf.lif_-_Series005",
+      "dxy_um": 0.567508546678713,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeactXnuclear/48hpf/16012025_cmlc2_lifeactxnuclear_48hpf.lif - Series006.tif",
+      "sample_name": "16012025_cmlc2_lifeactxnuclear_48hpf.lif_-_Series006",
+      "dxy_um": 0.567508546678713,
+      "dz_um": 0.6849000000000001,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeact_EGFP/32hpf/BDM/10012025_cmlc2lifeactEGFP.lif - Series002.tif",
+      "sample_name": "10012025_cmlc2lifeactEGFP.lif_-_Series002",
+      "dxy_um": 0.5684327683301094,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeact_EGFP/32hpf/BDM/10012025_cmlc2lifeactEGFP.lif - Series003.tif",
+      "sample_name": "10012025_cmlc2lifeactEGFP.lif_-_Series003",
+      "dxy_um": 0.5693600051925632,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeact_EGFP/32hpf/BDM/10012025_cmlc2lifeactEGFP.lif - Series004.tif",
+      "sample_name": "10012025_cmlc2lifeactEGFP.lif_-_Series004",
+      "dxy_um": 0.5693600051925632,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeact_EGFP/32hpf/BDM/10012025_cmlc2lifeactEGFP.lif - Series005.tif",
+      "sample_name": "10012025_cmlc2lifeactEGFP.lif_-_Series005",
+      "dxy_um": 0.5693600051925632,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeact_EGFP/32hpf/BDM/20112024_cmlc2LIFEACTGFP_32hpf.lif - Series004.tif",
+      "sample_name": "20112024_cmlc2LIFEACTGFP_32hpf.lif_-_Series004",
+      "dxy_um": 0.4557500848834533,
+      "dz_um": 0.5821650602409639,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeact_EGFP/32hpf/BDM/20112024_cmlc2LIFEACTGFP_32hpf.lif - Series005.tif",
+      "sample_name": "20112024_cmlc2LIFEACTGFP_32hpf.lif_-_Series005",
+      "dxy_um": 0.5684356763872956,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeact_EGFP/32hpf/BDM/20112024_cmlc2LIFEACTGFP_32hpf.lif - Series007.tif",
+      "sample_name": "20112024_cmlc2LIFEACTGFP_32hpf.lif_-_Series007",
+      "dxy_um": 0.5675098349454396,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeact_EGFP/32hpf/TRICAINE/cmlc2lifeactGFP-181224-32hpf.lif - Series003.tif",
+      "sample_name": "cmlc2lifeactGFP-181224-32hpf.lif_-_Series003",
+      "dxy_um": 0.5684282447447387,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeact_EGFP/32hpf/TRICAINE/cmlc2lifeactGFP-181224-32hpf.lif - Series004.tif",
+      "sample_name": "cmlc2lifeactGFP-181224-32hpf.lif_-_Series004",
+      "dxy_um": 0.5684282447447387,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeact_EGFP/32hpf/TRICAINE/cmlc2lifeactGFP-181224-32hpf.lif - Series005.tif",
+      "sample_name": "cmlc2lifeactGFP-181224-32hpf.lif_-_Series005",
+      "dxy_um": 0.5684282447447387,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeact_EGFP/32hpf/TRICAINE/cmlc2lifeactGFP-181224-32hpf.lif - Series006.tif",
+      "sample_name": "cmlc2lifeactGFP-181224-32hpf.lif_-_Series006",
+      "dxy_um": 0.5684282447447387,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeact_EGFP/32hpf/TRICAINE/cmlc2lifeactGFP-181224-32hpf.lif - Series007.tif",
+      "sample_name": "cmlc2lifeactGFP-181224-32hpf.lif_-_Series007",
+      "dxy_um": 0.5684282447447387,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeact_EGFP/48hpf/BDM/13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001.tif",
+      "sample_name": "13122024_cmlc2LIFEACTEGFP_48hpf.lif_-_Series001",
+      "dxy_um": 0.5675040377912289,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeact_EGFP/48hpf/BDM/13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series003.tif",
+      "sample_name": "13122024_cmlc2LIFEACTEGFP_48hpf.lif_-_Series003",
+      "dxy_um": 0.5675040377912289,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeact_EGFP/48hpf/BDM/13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series015.tif",
+      "sample_name": "13122024_cmlc2LIFEACTEGFP_48hpf.lif_-_Series015",
+      "dxy_um": 0.5675159542922651,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeact_EGFP/48hpf/TRICAINE/191224_cmlc2-lifeact-egfp_48hpf - Series005.tif",
+      "sample_name": "191224_cmlc2-lifeact-egfp_48hpf_-_Series005",
+      "dxy_um": 0.5675056480999627,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeact_EGFP/48hpf/TRICAINE/191224_cmlc2-lifeact-egfp_48hpf - Series006.tif",
+      "sample_name": "191224_cmlc2-lifeact-egfp_48hpf_-_Series006",
+      "dxy_um": 0.5675056480999627,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeact_EGFP/48hpf/TRICAINE/191224_cmlc2-lifeact-egfp_48hpf - Series007.tif",
+      "sample_name": "191224_cmlc2-lifeact-egfp_48hpf_-_Series007",
+      "dxy_um": 0.5675056480999627,
+      "dz_um": 0.6848999999999998,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeact_EGFP/48hpf/TRICAINE/191224_cmlc2-lifeact-egfp_48hpf - Series009.tif",
+      "sample_name": "191224_cmlc2-lifeact-egfp_48hpf_-_Series009",
+      "dxy_um": 0.5675056480999627,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_nuclear_dsRed/32hpf/BDM/cmlc2lifeactGFP-181224-32hpf.lif - Series001.tif",
+      "sample_name": "cmlc2lifeactGFP-181224-32hpf.lif_-_Series001",
+      "dxy_um": 0.5684282447447387,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_nuclear_dsRed/32hpf/BDM/cmlc2lifeactGFP-181224-32hpf.lif - Series008.tif",
+      "sample_name": "cmlc2lifeactGFP-181224-32hpf.lif_-_Series008",
+      "dxy_um": 0.5684282447447387,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_nuclear_dsRed/48hpf/BDM/191224.lif - Series001.tif",
+      "sample_name": "191224.lif_-_Series001",
+      "dxy_um": 0.5675056480999627,
+      "dz_um": 0.6848999999999998,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_nuclear_dsRed/48hpf/BDM/191224.lif - Series002.tif",
+      "sample_name": "191224.lif_-_Series002",
+      "dxy_um": 0.5675056480999627,
+      "dz_um": 0.6849000000000001,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    },
+    {
+      "tif": "/Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_nuclear_dsRed/48hpf/BDM/191224.lif - Series003.tif",
+      "sample_name": "191224.lif_-_Series003",
+      "dxy_um": 0.5675056480999627,
+      "dz_um": 0.6849,
+      "methods": [
+        "richards_wolf_vectorial",
+        "gibson_lanni_scalar",
+        "gaussian_axial_linear",
+        "empirical_puncta_aligned"
+      ]
+    }
+  ]
+}

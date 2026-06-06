@@ -1,0 +1,13 @@
+# Example parameter sweep specification.
+# Each axis maps to a list of values; candidates are generated for the full
+# Cartesian product, applied on top of each sample's base parameters, for every
+# selected model. Allowed axes:
+#   na, wavelength_nm, voxel_xy_um, voxel_z_um, nx, nz, ni, ns, ni0,
+#   particle_depth_um
+#
+# Keep sweeps small — total renders = models x product(axis lengths) x samples
+# x (1 + perturbations). Start coarse, refine around the best region.
+
+sweep:
+  na: [0.75, 0.9, 1.1]
+  particle_depth_um: [0, 20, 40]

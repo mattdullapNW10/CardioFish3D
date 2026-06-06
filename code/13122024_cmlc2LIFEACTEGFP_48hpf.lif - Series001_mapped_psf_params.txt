@@ -1,0 +1,13 @@
+# Mapped PSF Parameters from: 13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001.tif
+# File path: /Users/matthieupallud/Downloads/FYP/data/raw/cmlc2_lifeact_EGFP/48hpf/BDM/13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001.tif
+
+# --- Optics (GUI: 'Optical Model' panel) ---
+NA               = 0.75
+WAVELENGTH_NM    = 580.0
+
+# --- Sampling / grid (GUI: 'Pixelsize', 'Z-step', 'Size XYZ') ---
+PIXELSIZE_XY_NM  = 567.5
+Z_STEP_NM        = 684.9
+
+# (For SIZE_XY and SIZE_Z, you typically use your image shape or standard padding)
+# Original image shape: (181, 2, 512, 512)

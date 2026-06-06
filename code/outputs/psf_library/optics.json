@@ -1,0 +1,21 @@
+{
+  "NA": 0.75,
+  "wavelength_um": 0.6,
+  "ni": 1.0,
+  "ni0": 1.0,
+  "ns": 1.33,
+  "tg_um": 170.0,
+  "tg0_um": 170.0,
+  "ng": 1.515,
+  "ng0": 1.515,
+  "ti0_um": 150.0,
+  "oversample": 3,
+  "epfl_reference": "https://bigwww.epfl.ch/algorithms/psfgenerator/",
+  "python_implementation_note": "Theoretical PSFs computed with psfmodels (vectorial, scalar Gibson\u2013Lanni, Gaussian). Not bit-identical to the Java EPFL PSF Generator; cite both when publishing.",
+  "method_labels": {
+    "richards_wolf_vectorial": "Richards & Wolf (vectorial, psfmodels)",
+    "gibson_lanni_scalar": "Gibson & Lanni scalar (psfmodels)",
+    "gaussian_axial_linear": "Gaussian + axial variation (EPFL-style approx.)",
+    "empirical_puncta_aligned": "Empirical puncta-aligned average (dataset)"
+  }
+}

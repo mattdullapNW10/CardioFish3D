@@ -1,0 +1,4 @@
+sample_id,modality,wavelength_nm,na,ni,ns,coverslip_um,voxel_x_um,voxel_y_um,voxel_z_um,imaging_depth_um,objective,notes
+zf_cardiac_48hpf_s005,confocal,510,0.75,1.33,1.35,170,0.5675,0.5675,0.6849,40,Leica 25x/0.95 water,deep stack
+zf_cardiac_dsRed_shallow,confocal,580,0.8,1.33,1.35,170,0.3,0.3,0.5,5,Leica 25x/0.95 water,shallow
+zf_cardiac_highNA,confocal,510,1.1,1.33,1.35,170,0.12,0.12,0.3,20,oil-ish high NA,high NA -> vectorial test

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+# EPFL PSF Generator JAR — do not redistribute (download separately)
+third_party/
+*.jar
+# Generated workflow outputs
+psf_outputs/
+example_outputs*/
+eo/
+eo_sweep/
+out/

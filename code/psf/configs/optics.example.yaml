@@ -1,0 +1,21 @@
+# Reference optical defaults for this dataset (documentation / convenience).
+# These mirror psfselect.metadata.DEFAULTS and are applied when a metadata field
+# is missing. Editing this file does not change the code defaults — it is a
+# human-readable record of the assumptions used for zebrafish cardiac imaging.
+
+modality: confocal
+wavelength_nm: 600.0        # emission; set per fluorophore (EGFP ~510, dsRed ~580)
+na: 0.8
+ni: 1.33                    # water immersion
+ni0: 1.33
+ns: 1.35                    # zebrafish myocardium refractive index
+ng: 1.515                   # coverslip
+ng0: 1.515
+coverslip_um: 170.0
+coverslip_design_um: 170.0
+working_distance_um: 2000.0
+voxel_x_um: 0.3
+voxel_y_um: 0.3
+voxel_z_um: 1.0
+imaging_depth_um: 0.0
+objective: "Leica 25x/0.95 water (assumed)"

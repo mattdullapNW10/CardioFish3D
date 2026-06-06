@@ -1,0 +1,52 @@
+# Training Configuration
+
+# Model
+model:
+  name: "unet"  # Options: unet, resnet, custom
+  architecture: "standard"
+  pretrained: false
+  input_channels: 1
+  output_channels: 1
+
+# Training parameters
+training:
+  epochs: 100
+  batch_size: 32
+  learning_rate: 0.001
+  optimizer: "adam"  # Options: adam, sgd, rmsprop
+  loss_function: "dice"  # Options: dice, cross_entropy, mse
+
+# Validation
+validation:
+  split_ratio: 0.2
+  validation_frequency: 5  # Validate every N epochs
+
+# Regularization
+regularization:
+  dropout_rate: 0.3
+  weight_decay: 0.0001
+  early_stopping: true
+  patience: 15
+
+# Data augmentation
+augmentation:
+  enabled: true
+  rotation_range: 30
+  zoom_range: 0.2
+  flip_horizontal: true
+  flip_vertical: true
+
+# Hardware
+hardware:
+  device: "cuda"  # Options: cuda, cpu, mps (Apple Silicon)
+  mixed_precision: false
+
+# Logging and checkpointing
+logging:
+  log_dir: "logs"
+  checkpoint_dir: "models"
+  save_frequency: 10  # Save every N epochs
+  verbose: true
+
+# Reproducibility
+random_seed: 42

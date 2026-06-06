@@ -1,0 +1,18 @@
+--- Extracted Parameters for: data/raw/cmlc2_lifeact_EGFP/48hpf/BDM/13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001.tif ---
+
+=== Numerical Aperture ===
+Series001 Image #0|ATLConfocalSettingDefinition #0|NumericalAperture = 0.75
+
+=== Wavelength ===
+Series001 Image #0|ATLConfocalSettingDefinition #0|DetectorList #0|Detector #0|TimeGateWavelength = -1
+Series001 Image #0|ATLConfocalSettingDefinition #0|EmissionWavelengthForPinholeAiryCalculation = 580
+Series001 Image #0|ATLConfocalSettingDefinition #0|Laser #0|CanDoChangeWavelength = 0
+Series001 Image #0|ATLConfocalSettingDefinition #0|Laser #0|Wavelength = 405
+Series001 Image #0|ATLConfocalSettingDefinition #0|Laser #1|CanDoChangeWavelength = 0
+Series001 Image #0|ATLConfocalSettingDefinition #0|Laser #1|Wavelength = 0
+Series001 Image #0|ATLConfocalSettingDefinition #0|MultiBand #0|TargetWaveLengthBegin = 380
+Series001 Image #0|ATLConfocalSettingDefinition #0|MultiBand #0|TargetWaveLengthEnd = 385
+Series001 Image #0|ATLConfocalSettingDefinition #0|MultiBand #1|TargetWaveLengthBegin = 490
+Series001 Image #0|ATLConfocalSettingDefinition #0|MultiBand #1|TargetWaveLengthEnd = 750
+Series001 Image #0|ATLConfocalSettingDefinition #0|MultiBand #2|TargetWaveLengthBegin = 794
+Series001 Image #0|ATLConfocalSettingDefinition #0|MultiBand #2|TargetWaveLengthEnd = 799

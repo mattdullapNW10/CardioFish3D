@@ -1,0 +1,58 @@
+# 3D Restoration GAN configuration (blind deconvolution of nuclei volumes)
+
+data:
+  raw_dir: "data/raw"                  # raw multi-channel hyperstacks
+  deconv_dir: "deconvolution_results"  # Richardson-Lucy *_deconvolved.tif targets
+  channel: 1                           # nuclei channel index
+  patch_size: [32, 128, 128]           # D, H, W
+  patches_per_volume: 16
+  val_split: 0.2
+  augment: true
+  num_workers: 4
+
+generator:
+  base_channels: 32
+  depth: 3                  # number of down/up samplings
+  norm: "instance"          # instance | group | none
+  num_bottleneck_blocks: 2
+  anisotropic_z: false      # if true, downsample only Y/X (keeps thin Z intact)
+
+discriminator:
+  base_channels: 64
+  n_layers: 3
+  norm: "instance"
+  spectral_norm: false
+
+loss:
+  adversarial: "lsgan"      # lsgan | hinge
+  lambda_adv: 1.0
+  lambda_l1: 100.0
+  lambda_freq: 1.0
+  lambda_grad: 0.0
+
+training:
+  epochs: 100
+  batch_size: 2
+  lr_g: 0.0002
+  lr_d: 0.0002
+  beta1: 0.5
+  beta2: 0.999
+  device: "auto"            # auto -> cuda | mps | cpu
+  mixed_precision: false    # only honored on cuda
+  seed: 42
+
+logging:
+  log_dir: "logs/gan"
+  checkpoint_dir: "models"
+  sample_dir: "results/gan"
+  save_every: 10            # epochs
+  sample_every: 5           # epochs
+  val_every: 5              # epochs
+
+# Optional synthetic re-blur augmentation (extra pairs). Off by default.
+reblur_augment:
+  enabled: false
+  psf_library_root: "outputs/psf_library"
+  methods: ["gaussian_axial_linear", "gibson_lanni_scalar"]
+  gain: [500.0, 2000.0]     # sampled uniformly
+  read_sigma: [0.005, 0.02]

@@ -1,0 +1,58 @@
+{
+  "sample": {
+    "sample_id": "13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001",
+    "modality": "confocal",
+    "wavelength_nm": 509.0,
+    "na": 0.75,
+    "ni": 1.0,
+    "ni0": 1.0,
+    "ns": 1.35,
+    "ng": 1.515,
+    "ng0": 1.515,
+    "coverslip_um": 170.0,
+    "coverslip_design_um": 170.0,
+    "working_distance_um": 2000.0,
+    "voxel_x_um": 0.5675040377912289,
+    "voxel_y_um": 0.5675040377912289,
+    "voxel_z_um": 0.6849,
+    "image_x": 512,
+    "image_y": 512,
+    "image_z": 181,
+    "imaging_depth_um": 0.0,
+    "objective": "HC PL APO CS2    20x/0.75 DRY",
+    "image_path": "../data/raw/cmlc2_lifeact_EGFP/48hpf/BDM/13122024_cmlc2LIFEACTEGFP_48hpf.lif - Series001.tif",
+    "notes": "immersion=DRY; dyes=EGFP; channels=2",
+    "missing_fields": [
+      "ns",
+      "ng",
+      "ng0",
+      "coverslip_um",
+      "coverslip_design_um",
+      "working_distance_um",
+      "imaging_depth_um"
+    ],
+    "applied_defaults": {
+      "ns": 1.35,
+      "ng": 1.515,
+      "ng0": 1.515,
+      "coverslip_um": 170.0,
+      "coverslip_design_um": 170.0,
+      "working_distance_um": 2000.0,
+      "imaging_depth_um": 0.0
+    }
+  },
+  "info": {
+    "series": "Series001",
+    "ni_source": "RefractionIndex",
+    "emission_source": "dye:EGFP",
+    "immersion": "DRY",
+    "objective": "HC PL APO CS2    20x/0.75 DRY",
+    "dyes": [
+      "EGFP"
+    ],
+    "size_c": 2,
+    "na": 0.75,
+    "ni": 1.0,
+    "emission_nm": 509.0
+  }
+}

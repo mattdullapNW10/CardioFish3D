@@ -1,0 +1,66 @@
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9871486/
+https://www.nature.com/articles/s44172-024-00331-z
+https://www.nature.com/articles/s42003-021-02938-w
+https://arxiv.org/html/2601.08776v1
+https://www.sciencedirect.com/science/article/pii/S001048252400461X
+https://www.sciencedirect.com/science/article/abs/pii/S0893608023006627
+https://idr.openmicroscopy.org/study/idr0079/ Maybe usable dataset
+
+Primary Source (Most Direct Support)
+Laasmaa et al. (2011) - "Application of regularized Richardson–Lucy algorithm for deconvolution of confocal microscopy images"
+
+Journal: Journal of Microscopy, Vol. 243(2), pp. 124-140
+
+Key quote: "The estimated total variation regularization parameter can be monitored during deconvolution process and used as a stopping criterion"
+
+Finding: "An inverse relation between the optimal regularization parameter and the peak signal-to-noise ratio of an image is shown"
+
+Optimal iteration: Found to be 8th step when MSE = 0.00635
+
+SNR-dependent: Optimal iterations vary between 8-25 depending on SNR
+
+Full citation:
+
+text
+Laasmaa, M., Vendelin, M., & Peterson, P. (2011). 
+Application of regularized Richardson–Lucy algorithm for deconvolution 
+of confocal microscopy images. Journal of Microscopy, 243(2), 124-140.
+Secondary Sources (Supporting TV Regularization)
+Dey et al. (2006) - "Richardson-Lucy Algorithm with Total Variation Regularization for 3D Confocal Microscope Deconvolution"
+
+Journal: Microscopy Research and Technique, Vol. 69(1), pp. 260-266
+
+Key contribution: Combines RL with TV regularization to suppress unstable oscillations
+
+Citation from:
+
+Full citation:
+
+text
+Dey, N., Blanc-Féraud, L., Zimmer, C., Roux, P., Kam, Z., Olivo-Marin, J. C., 
+& Zerubia, J. (2006). Richardson-Lucy algorithm with total variation 
+regularization for 3D confocal microscope deconvolution. Microscopy Research 
+and Technique, 69(1), 260-266.
+
+
+Why This is Standard Practice:
+Paper Support: PSF Impact on Deconvolution
+From the "On-the-fly estimation of a microscopy PSF" paper:
+
+"A proper estimation of realistic point-spread function (PSF) in optical microscopy can significantly improve the deconvolution performance"
+
+Translation: To evaluate PSF quality, you measure how well deconvolution works with that PSF
+
+Paper Support: PSF Validation Method
+From the PSF validation paper:
+
+"We compute what those images ought to look like if our chosen PSF model were correct. We then use a confidence interval approach to see if the actual pixels match what the math predicts"
+
+Translation: They validate PSF by comparing deconvolved output with actual data
+
+Paper Support: PSF Evaluation Metric
+From the PSF estimation benchmark paper:
+
+"When the recovered PSFs are used with spatially-variant and regularized Richardson-Lucy deconvolution, we observed up to 2.1 dB better Signal-to-Noise Ratio (SNR) compared to other Blind Deconvolution techniques"
+
+Translation: They evaluate PSF by measuring SNR improvement after deconvolution

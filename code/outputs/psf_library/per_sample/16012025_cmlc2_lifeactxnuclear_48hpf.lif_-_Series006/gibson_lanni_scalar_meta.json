@@ -1,0 +1,1 @@
+{"dxy_um": 0.567508546678713, "dz_um": 0.6849000000000001, "NA": 0.75, "wavelength_um": 0.6, "ni": 1.0, "ni0": 1.0, "ns": 1.33, "tg_um": 170.0, "tg0_um": 170.0, "ng": 1.515, "ng0": 1.515, "ti0_um": 150.0, "oversample": 3, "slug": "gibson_lanni_scalar", "shape_zyx": [31, 63, 63]}

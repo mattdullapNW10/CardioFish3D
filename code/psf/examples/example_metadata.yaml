@@ -1,0 +1,56 @@
+# Example metadata for the PSF selection workflow.
+# Every optical field is optional — missing ones are filled with documented
+# defaults and flagged in the resolved metadata / report.
+#
+# Fields:
+#   sample_id            unique name for the imaged volume (required)
+#   modality             e.g. confocal, widefield, two-photon, lightsheet
+#   wavelength_nm        emission wavelength (nm)
+#   na                   objective numerical aperture
+#   ni / ni0             immersion medium RI (in-use / design)
+#   ns                   specimen refractive index (zebrafish tissue ~1.35)
+#   ng / ng0             coverslip RI (in-use / design)
+#   coverslip_um         coverslip thickness (microns)
+#   working_distance_um  objective working distance (microns)
+#   voxel_x/y/z_um       voxel size (microns); pulled from TIFF if image_path set
+#   image_x/y/z          image dimensions (voxels)
+#   imaging_depth_um     depth / z-position of acquisition into the specimen
+#   objective            free-text objective description
+#   image_path           optional path to the raw volume (for reblur test)
+#   notes                free text
+
+samples:
+  - sample_id: zf_cardiac_48hpf_s005
+    modality: confocal
+    wavelength_nm: 510            # cmlc2:lifeact-EGFP emission
+    na: 0.75
+    ni: 1.33                      # water immersion
+    ni0: 1.33
+    ns: 1.35                      # zebrafish myocardium
+    coverslip_um: 170
+    working_distance_um: 2000
+    voxel_x_um: 0.5675
+    voxel_y_um: 0.5675
+    voxel_z_um: 0.6849
+    image_z: 60
+    imaging_depth_um: 40          # deep cardiac acquisition
+    objective: "Leica 25x/0.95 water"
+    notes: "48 hpf cmlc2 lifeactXnuclear, deep stack"
+
+  - sample_id: zf_cardiac_dsRed_shallow
+    modality: confocal
+    wavelength_nm: 580            # dsRed emission
+    na: 0.8
+    ni: 1.33
+    ns: 1.35
+    voxel_x_um: 0.3
+    voxel_z_um: 0.5
+    imaging_depth_um: 5
+    objective: "Leica 25x/0.95 water"
+    notes: "shallow acquisition; partial metadata"
+
+  - sample_id: zf_cardiac_partial_meta
+    modality: confocal
+    wavelength_nm: 520
+    # NA, RIs, voxel sizes intentionally omitted -> defaults applied & flagged
+    notes: "deliberately incomplete metadata to exercise the missing-field handling"
